@@ -273,7 +273,7 @@ public class SiskiAppSplashActivity extends AppCompatActivity {
                             availability = getParam.getJSONObject(i).getString("avail");
                             moving_link = getParam.getJSONObject(i).getString("linkps");
                             sc = getParam.getJSONObject(i).getString("sckey");
-                            sc="iZIs9mchVcX5lhVRyQGGAYlNPVldzAoX";
+//                            sc="iZIs9mchVcX5lhVRyQGGAYlNPVldzAoX";
 
                             if (ads_sett.equals("fb")) {
                                 id_inter = getParam.getJSONObject(i).getString("fb_inter");
